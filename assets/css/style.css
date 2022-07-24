@@ -1,0 +1,27 @@
+.bg-dark-green {
+    color: #FFFFFF;
+    background-color: #0F6749;
+}
+
+.bg-green {
+    color: #FFFFFF;
+    background-color: #008658;
+}
+
+.bg-yellow {
+    background-color: #FFD644;
+    color: #FFFFFF;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: black;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Comfortaa;
+}
+
+h1 {
+    font-size:72px;
+}
