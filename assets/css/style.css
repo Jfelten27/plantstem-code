@@ -41,3 +41,15 @@ br {
     background-color: white;
     color: black;
 }
+
+input, textarea {
+    border-color: #808080;
+    border-radius: 5px;
+    border-style: solid;
+    resize: none;
+    margin: 3px;
+}
+
+input:focus {
+    border: lightblue;
+}

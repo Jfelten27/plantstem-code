@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>PlantStem - Home</title>
-        <link rel="stylesheet" href="/assets/css/discordinvite.css">
         <?php include "htmlhead.php" ?>
     </head>
     <body class="bg-green">
@@ -32,16 +31,38 @@
             <div class="w3-row w3-container">
                 <div class="w3-half">
                     <h1>Discord</h1>
-                    <div id="discordInviteBox"></div>
+                    <iframe src="https://discord.com/widget?id=991282168154308769&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
+                <div class="w3-half">
+                    <h1>Email</h1>
+                    <form action="/message.php" method="POST">
+                        <div class="w3-col l8 m12 s12">
+                            <div class="w3-row w3-right">
+                                <label for="address">Email address:</label>
+                                <input type="email" name="address">
+                            </div>
+                            <div class="w3-row w3-right">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name">
+                            </div>
+                            <br>
+                            <div class="w3-row w3-right">
+                                <label for="subject">Subject:</label>
+                                <input type="text" name="subject">
+                            </div>
+                            <br>
+                            <div class="w3-row w3-right">
+                                <label for="message" class="w3-cell-top">Message:</label>
+                                <textarea type="text" name="message" rows="5"></textarea>
+                            </div>
+                            <br>
+                            <div class="w3-row">
+                                <input type="submit" name="submit" value="Send" class="w3-button bg-dark-green">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <script src="/assets/js/discordinvite.js"></script>
-        <script>
-            discordInvite.init({
-                inviteCode: 'vPdvx5nzYZ',
-            });
-            discordInvite.render();
-        </script>
     </body>
 </html>
