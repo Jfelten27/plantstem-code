@@ -55,10 +55,10 @@
                                 <label for="message" class="w3-cell-top">Message:</label>
                                 <textarea type="text" name="message" rows="5"></textarea>
                             </div>
-                            <br>
-                            <div class="w3-row">
-                                <input type="submit" name="submit" value="Send" class="w3-button bg-dark-green">
-                            </div>
+                        </div>
+                        <br>
+                        <div class="w3-row">
+                            <input type="submit" name="submit" value="Send" class="w3-button bg-dark-green">
                         </div>
                     </form>
                 </div>
