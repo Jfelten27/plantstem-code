@@ -1,5 +1,5 @@
 <?php
-$hostname = 'localhost';
-$username = 'plantstem';
-$password = '';
+$hostname = '<redacted>';
+$username = '<redacted>';
+$password = '<redacted>';
 ?>

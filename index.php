@@ -14,7 +14,7 @@
                 <img src="/assets/img/logo.svg" alt="PlantStem" style="width: 33%; margin-bottom: 30px;">
                 <div class="w3-row">
                     <a href="#" class="w3-round-xxlarge bg-yellow w3-button home-button">Get Started</a>
-                    <a href="#about" class="w3-round-xxlarge bg-yellow w3-button home-button">About Us   </a>
+                    <a href="/about.php" class="w3-round-xxlarge bg-yellow w3-button home-button">About Us   </a>
                 </div>
             </div>
             <br>
